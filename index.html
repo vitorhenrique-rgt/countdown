@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Countdown</title>
+</head>
+<body>
+  <div class="container-add-date">
+    <div class="add-date">
+      <p>Defina a data para iniciar o contador</p>
+      <input type="datetime-local">
+      <button type="button" class="btn">Inicar</button>
+    </div>
+  </div>
+
+      <img src="assets/images/top-image.svg" alt="" >
+      <div class="content">
+        <div class="countdown">
+          <h1>Ready to launch in...</h1>
+          <div class="counter">
+            <div><span class="time-label">Dias</span><span class="time" id="day">00</span></div>
+            <div><span class="time">:</span></div>
+            <div><span class="time-label">Horas</span><span class="time" id="hour">00</span></div>
+            <div><span class="time">:</span></div>
+            <div><span class="time-label">Minutos</span><span  class="time" id="minute">00</span></div>
+            <div><span class="time">:</span></div>
+            <div><span class="time-label">Segundos</span><span  class="time" id="second">00</span></div>
+          </div>
+          <p>Inscreva-se para saber mais sobre o lançamento</p>
+          <button class="btn">Inscreva-se</button>
+        </div>
+        <div class="rocket">
+          <img src="assets/images/rocket.svg" alt="">
+        </div>
+      </div>
+      <img src="assets/images/bottom-image.svg" alt="" class="img-botton">
+      <script src="script.js"></script>
+</body>
+</html>
