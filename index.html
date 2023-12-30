@@ -10,11 +10,11 @@
   <title>Countdown</title>
 </head>
 <body>
-  <div class="container-add-date">
+  <div class="container-add-date" id="add-date">
     <div class="add-date">
-      <p>Defina a data para iniciar o contador</p>
-      <input type="datetime-local">
-      <button type="button" class="btn">Inicar</button>
+      <p id="add-date-text">Defina a data para iniciar o contador</p>
+      <input type="datetime-local" id="initial-date">
+      <button type="button" class="btn" onclick="startCounter()">Iniciar</button>
     </div>
   </div>
 
@@ -38,7 +38,7 @@
           <img src="assets/images/rocket.svg" alt="">
         </div>
       </div>
-      <img src="assets/images/bottom-image.svg" alt="" class="img-botton">
+      <img src="assets/images/bottom-image.svg" alt="" class="img-button">
       <script src="script.js"></script>
 </body>
 </html>
